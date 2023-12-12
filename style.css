@@ -1,0 +1,881 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+.menu-bg {
+    width: 100%;
+    height: 400px;
+    background-color: #686868;
+    background-image: url(image/Product/product-cover-scaled.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    width: 90px;
+    height: 100px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+}
+
+.menu ul li :hover {
+    color: #b68a3c;
+}
+
+.menu ul li :active {
+    color: #b68a3c;
+}
+
+.menu-bg {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.acrhi-pro {
+    width: 100%;
+}
+
+.acrhi-pro-mainbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.top {
+    width: 500px;
+    float: left;
+    margin: 5px;
+    padding: 25px;
+}
+
+.top img {
+    width: 100%;
+}
+
+#top2 {
+    flex-grow: 2;
+}
+
+.top h2 {
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.top p {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.about {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #b68a3c;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border-radius: 5px 5px 5px 5px
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+}
+
+.about:hover {
+    background-color: #287980;
+}
+
+.latest-product {
+    width: 100%;
+    padding: 30px 0;
+
+}
+
+.latest-product-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.text-latest {
+    width: 100%;
+    text-align: center;
+
+}
+
+.latest-product h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+    font-weight: 900;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.latest-product h2 span {
+    color: #b68a3c;
+}
+
+.latest-product P {
+    font-size: 15px;
+    font-size: 400;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.img-box {
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.program {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.program-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.program-box {
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+}
+
+.program-box img {
+
+    width: 100%;
+}
+
+.program-box h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+.program-box p {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0px 30px;
+}
+
+.contact {
+    width: 130px;
+    height: 40px;
+    background-color: #b68a3c;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact:hover {
+    background-color: #287980;
+}
+
+.youtubevideo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 1170px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title h2 {
+    font-size: 30px;
+    color: #333;
+
+}
+
+.title h2 span {
+    color: #b68a3c;
+}
+
+.title p {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.video-box {
+    width: 22%;
+    height: 500px;
+    background-color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+.slider-video {
+    width: 100%;
+    padding: 60px 0px;
+
+}
+
+.slider-video-mainbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.video-box img {
+    width: 100%;
+    height: 500px;
+}
+
+.video-box:hover {
+    border: 5px solid black;
+    background-color: black;
+    opacity: 40%;
+}
+
+.video-box p {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 200%;
+}
+
+.botton {
+    width: 40px;
+    height: 40px;
+    background-color: burlywood;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.company-detail {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #f4f4f4;
+}
+
+.company-detail-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.detail-box {
+    width: 330px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.detail-box {
+    font-size: 15px;
+    font-weight: 800;
+    color: #333;
+}
+
+.detail-box p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: left;   
+}
+
+.detail-box ul {
+    list-style: none;
+}
+
+.detail-box ul li {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.detail-box ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Contact-detail-mainbox p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.iconify.iconify--uil {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+
+.iconify.iconify--uil:hover {
+    color: #b68a3c;
+}
+
+.iconify.iconify--ic {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.iconify.iconify--ic:hover {
+    color: #b68a3c;
+}
+
+.copyright {
+    width: 100%;
+    height: 50px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-top: 0.1px solid rgb(177, 177, 177);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+/* .about-page */
+
+.menu-bg-1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(image/Product/product-cover-scaled.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title-page {
+    max-width: 1170px;
+    height: 100px;
+    margin-top: 50px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.title-page h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.title-page p {
+    font-size: 16px;
+}
+
+.title-page span {
+    color: #b68a3c;
+}
+
+.aboutus {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.aboutusmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.aboutus-box {
+    width: 500px;
+    padding: 10px 30px;
+}
+.aboutus-box img{
+    width: 100%;
+}
+
+.aboutus-box h2 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #333;
+}
+
+.aboutus-box p {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.reputedcompany {
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #f6f6f6;
+
+}
+
+.reputedcompany-mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.reputedcomapny-box {
+    width: 500px;
+    padding: 10px 40px;
+}
+.reputedcomapny-box img{
+    width: 100%;
+}
+
+.reputedcomapny-box h2 {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.reputedcomapny-box p {
+    padding: 5px;
+    font-size: 18px;
+}
+
+.clear {
+    clear: both;
+
+}
+
+.widerange {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.widerangemain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.widerange-box {
+    width: 500px;
+    padding: 10px 40px;
+}
+.widerange-box img{
+    width: 100%;
+}
+
+.widerange-box h2 {
+    padding: 5px  0px;
+    font-size: 23px;
+    font-weight: 900;
+    color: #333;
+}
+
+.widerange-box p {
+    padding: 5px 0px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+
+}
+
+
+
+/* products-page */
+
+.menu-bg-2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(image/Product/product-cover-scaled.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.product-categories {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.product-categories-mainbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-detail-box {
+    width: 270px;
+    background-color: white;
+}
+
+.product-detail-box h4 {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.product-detail-box ul {
+    list-style: none;
+}
+
+.product-detail-box ul li {
+    float: none;
+}
+
+.product-detail-box ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.product-detail-box ul li a:hover {
+    color: #b68a3c;
+}
+
+.product-img {
+    width: 900px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.prodct-img-box {
+    width: 280px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.prodct-img-box img{
+    width: 100%;
+}
+
+.prodct-img-box p {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.prodct-img-box p:hover {
+    color: #287980;
+}
+
+
+/* .types-of-railing */
+
+.menu-bg-4 {
+    width: 100%;
+    height: 400px;
+    background-image: url(image/Types/types-of-railing-cover.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.railing-type {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.railing-type-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.types-img-box {
+    width: 350px;
+    margin: 10px;
+}
+.types-img-box img{
+    width: 100%;
+}
+
+.types-img-box p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+
+.types-img-box p:hover {
+    color: #287980;
+}
+
+
+/* .contact-us */
+
+.menu-bg-5 {
+    width: 100%;
+    height: 400px;
+    opacity: 70%;
+    background-color: black;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(image/contactus/contact-us-cover.png);
+}
+
+.map {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.map-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.map-box {
+    width: 100%;
+    padding: 5px;
+    height: 500px;
+}
+
+.msg-officeaddres {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.msg-officeaddres-mainbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mailbox {
+    width: 48%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.mailbox input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    line-height: 40px;
+    text-indent: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #f7f7f7;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    border: none;
+    margin-top: 20px;
+    line-height: 40px;
+    text-indent: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #f7f7f7;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #b68a3c;
+
+}
+
+.submit a {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    line-height: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+
+
+}
+
+.submit:hover {
+    background-color: #287980;
+}
+
+.contact-addres {
+    padding: 10px;
+    height: 80px;
+}
+
+.mailbox span {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    position: absolute;
+
+}
+
+.mailbox p {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 30px;
+    position: relative;
+}
+
+.iconify.iconify--bx {
+    width: 20px;
+    height: 30px;
+    position: relative;
+}
+
+.iconify.iconify--fluent {
+    width: 20px;
+    height: 30px;
+    position: relative;
+}
+
+.iconify.iconify--typcn {
+    width: 20px;
+    height: 30px;
+    position: relative;
+}
+
+
+/* .Product-detail-page */
+
+.menu-bg-6 {
+    background-color: black;
+}
+
+.product-img-detail {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+}
+
+.product-img-detail-mainbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-imge-detailbox {
+    width: 47%;
+    padding: 0 10px;
+}
+
+.product-imge-detailbox img {
+    width: 100%;
+    height: 600px;
+}
+
+.product-imge-detailbox p {
+    line-height: 30px;
+    font-size: 15px;
+}
+.bx-wrapper{
+    border: none;
+    box-shadow: none;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+/* product slider */
+.product1{
+    width: 100%;
+}
+.product1 .image img{
+    width: 100%;
+    height: 100%;
+}
